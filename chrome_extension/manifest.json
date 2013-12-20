@@ -1,0 +1,25 @@
+{
+	"name": "QRCodeDisplayer",
+	"version": "0.1",
+	"manifest_version": 2,
+	
+	"description": "Displays QR codes (for use with Glass password manager).",
+    
+    "icons": {
+		"16": "icons/16.png",
+		"48": "icons/48.png",
+		"128": "icons/128.png"
+	},
+	
+	"permissions": [
+        "tabs",
+		"http://*/*",
+		"https://*/*"
+	],
+    
+    "browser_action": {
+        "default_icon": "icons/16.png",
+        "default_popup": "popup.html",
+        "default_title": "QRCodeDisplayer"
+    }
+}

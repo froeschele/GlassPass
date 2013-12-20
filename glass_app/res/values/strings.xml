@@ -1,0 +1,7 @@
+<resources>
+
+    <string name="app_name">PasswordManager</string>
+    <string name="find_password">find password</string>
+    <string name="enroll_password">enroll password</string>
+
+</resources>

@@ -1,0 +1,21 @@
+This repository contains a prototype augmented reality password manager. 
+
+It has two parts:
+(1) a Chrome extension that displays a QR code to enroll or lookup your password for the current site, and
+(2) a Google Glass application that scans the QR code and enrolls a new password ("OK Glass, enroll password") or looks up a previously stored password ("OK Glass, find password").
+
+Please be aware that this is a prototype application, not a secure password manager.
+
+======
+
+For more information, please see our paper:
+
+Franziska Roesner, Tadayoshi Kohno, and David Molnar. "Security and Privacy for Augmented Reality Systems." To appear in the Communications of the ACM. http://www.franziroesner.com/pdf/arsec-cacm2014-preprint.pdf
+
+======
+
+To install:
+
+(1) the Chrome extension, visit chrome://extensions in your browser, make sure that "Developer mode" is checked, and then click "Load unpacked extension" and select the chrome_extension directory.
+
+(2) the Google Glass application, import the glass_app directory as an existing Android project into Eclipse and then run on Glass from Eclipse. 
